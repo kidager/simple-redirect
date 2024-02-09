@@ -1,0 +1,5 @@
+server {
+    listen 80;
+
+    rewrite (.*) ${TARGET_URL} ${REDIRECT_TYPE};
+}
